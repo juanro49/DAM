@@ -1,0 +1,15 @@
+.clase1
+{
+	font-family:fantasy;
+	color:green;
+	background-color:black;
+	border:double 6px yellow;
+}
+
+#cabecera
+{
+	font-family:arial;
+	color:blue;
+	background-color:red;
+	border:double 6px black;
+}

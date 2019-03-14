@@ -1,0 +1,7 @@
+<!ELEMENT concesionario (modelo*)>
+  <!ELEMENT modelo (descripción*)>
+    <!ATTLIST modelo ref ID #REQUIRED
+                                      modelos_relacionados IDREFS #IMPLIED
+                                      motor NMTOKEN #IMPLIED
+                                      motor_relacionado_modelo IDREFS #IMPLIED>
+    <!ELEMENT descripción (#PCDATA)>

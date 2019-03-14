@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.juan11791.garciasanchezjuanroberto.Factura">
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="#36894d"
+        android:id="@+id/tvBicicleta"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="#36894d"
+        android:id="@+id/tvPatinete"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/tvBicicleta"
+        android:layout_alignEnd="@+id/tvBicicleta"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="#36894d"
+        android:id="@+id/tvMonopatin"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:layout_alignEnd="@+id/tvBicicleta"
+        android:layout_below="@+id/tvPatinete"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:textAlignment="viewEnd"
+        android:background="#36894d"
+        android:id="@+id/tvTotal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:layout_alignEnd="@+id/tvBicicleta"
+        android:layout_below="@+id/tvMonopatin"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvPbici"
+        android:background="#7cbe8e"
+        android:text="     "
+        android:padding="20dp"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/tvBicicleta"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvPpatin"
+        android:background="#7cbe8e"
+        android:text="     "
+        android:padding="20dp"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/tvPatinete"
+        android:layout_alignEnd="@+id/tvPbici" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvPmonop"
+        android:background="#7cbe8e"
+        android:text="     "
+        android:padding="20dp"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/tvMonopatin"
+        android:layout_alignEnd="@+id/tvPpatin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvPtotal"
+        android:text="     "
+        android:background="#7cbe8e"
+        android:padding="20dp"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/tvTotal"
+        android:layout_alignEnd="@+id/tvPmonop" />
+</RelativeLayout>

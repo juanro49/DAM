@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>Ejercicio 711</title>
+<script type="text/javascript">
+	function func(dni)
+	{
+		if (dni.length != 9)
+		{
+			return "Longitud incorrecta (9 dígitos y letras)";
+		}
+		else if (isNaN(dni.substring(0,8)))
+		{
+			return "Introdude 8 números";
+		}
+		else if (isNaN(dni.substring(8)) == false)
+		{
+			return "La novena cifra tiene que ser una letra";
+		}
+		else
+		{
+			return "El DNI " + dni + " es correcto";
+		}
+	}
+	
+	var dni = prompt("Introduce el DNI");
+	alert(func(dni));
+</script>
+</head>
+<body>
+<p>Hola Mundo</p>
+</body>
+</html>

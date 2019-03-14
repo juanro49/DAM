@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\Preview\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (Iniciacion1-GarciaSanchezJuanRoberto.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Iniciacion1-GarciaSanchezJuanRoberto.cpp
+  Iniciacion1-GarciaSanchezJuanRoberto.vcxproj -> C:\Users\usuario\source\repos\Tema1\Debug\Iniciacion1-GarciaSanchezJuanRoberto.exe

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE flores [ 
+	<!ELEMENT flores (flor+)> 
+	<!ELEMENT flor (#PCDATA)> 
+]> 
+ 
+<flores> 
+  <flor></flor>
+</flores>

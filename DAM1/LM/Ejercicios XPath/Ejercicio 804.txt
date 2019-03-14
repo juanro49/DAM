@@ -1,0 +1,20 @@
+a)
+
+	//modulo[ciclo=//ciclo[nombre="Sistemas Microinformáticos y Redes"]/@id]/nombre/text()
+	
+b)
+
+	//ciclo[@id=//modulo[nombre="Lenguajes de Marcas y Sistemas de Gestión de la Información"]/ciclo]/nombre/text()
+	
+c)
+
+	//modulo[ciclo=//ciclo[grado="Superior"]/@id]/nombre/text()
+	
+d)
+
+	//modulo[ciclo=//ciclo[decretotitulo/@año=2009]/@id]/nombre/text()
+	
+e)
+
+	//ciclo[@id=//modulo[curso=1]/ciclo]/grado/text()
+	

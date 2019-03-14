@@ -1,0 +1,37 @@
+div
+{
+	font-family:sans-serif;
+	font-size:20px;
+	width:650px;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	border-bottom:5px dashed red;
+	border-top:5px dashed red;
+	border-left:8px dotted blue;
+	border-right:8px dotted blue;
+}
+
+.img1
+{
+	float:left;
+	padding:20px;
+	border:2px double green;
+	margin-top:20px;
+	margin-right:20px;
+	width:126px;
+	height:127px;
+}
+
+.img2
+{
+	float:right;
+	padding:20px;
+	border:2px double red;
+	margin-top:20px;
+	margin-left:20px;
+	width:126px;
+	height:127px;
+}
+

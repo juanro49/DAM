@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c24a94">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="20dp"
+        android:layout_alignParentStart="true">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zaragoza"
+            android:id="@+id/rbZaragoza"
+            android:buttonTint="#ffffff"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ávila"
+            android:id="@+id/rbAvila"
+            android:buttonTint="#ffffff"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cáceres"
+            android:id="@+id/rbCaceres"
+            android:buttonTint="#ffffff"
+            android:layout_row="4"
+            android:layout_column="0" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Córdoba"
+            android:id="@+id/rbCordoba"
+            android:buttonTint="#ffffff"
+            android:layout_row="5"
+            android:layout_column="0" />
+    </RadioGroup>
+
+</RelativeLayout>

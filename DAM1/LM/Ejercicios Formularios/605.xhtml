@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+     <title>Ejercicio 605</title>
+	 <link rel="stylesheet" type="text/css" href="603.css"/>
+  </head>
+  <body>
+	<form name="formulario" action="http://..." method="get">
+		<table id="tabla1">
+			<caption>CURRÍCULO</caption>
+			<tr>
+				<th>DNI</th>
+				<th>Nombre</th>
+				<th>Dirección</th>
+			</tr>
+			<tr>
+				<td><input type="text" name="DNI" maxlength="9" size="9"/></td>
+				<td><input type="text" name="Nombre"/></td>
+				<td><input type="text" name="Dirección"/></td>
+			</tr>
+			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr>
+				<th>Estado Civil</th>
+				<th>Experiencia Laboral</th>
+				<th>Idiomas</th>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<input type="radio" name="EC" value="Soltero" checked="checked"/>Soltero
+						<br/>
+						<input type="radio" name="EC" value="Casado"/>Casado
+						<br/>
+						<input type="radio" name="EC" value="Viudo"/>Viudo
+						<br/>
+						<input type="radio" name="EC" value="Divorciado"/>Divorciado
+					</p>
+				</td>
+				<td>
+					<p>
+						<input type="checkbox" name="Construcción" value="Construcción"/>Construcción
+						<br/>
+						<input type="checkbox" name="Administración" value="Administración"/>Administración
+						<br/>
+						<input type="checkbox" name="Hostelería" value="Hostelería"/>Hostelería
+					</p>
+				</td>
+				<td>
+					<p>
+						<input type="checkbox" name="Inglés" value="Inglés" checked="checked"/>Inglés
+						<br/>
+						<input type="checkbox" name="Francés" value="Francés"/>Francés
+						<br/>
+						<input type="checkbox" name="Alemán" value="Alemán"/>Alemán
+						<br/>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr>
+				<th colspan="3">Adjuntar fotografía</th>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="file" name="fotografía"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="3"><textarea name="Estudios" rows="6" cols="80" value="Estudios" wrap="physical"/></td>
+			</tr>
+		</table>
+		<br/>
+		<table id="tabla2">
+			<tr>
+				<td>
+					<input type="submit" name="Aceptar" value="Aceptar"/>
+				</td>
+				<td>
+					<input type="reset" name="Cancelar" value="Cancelar"/>
+				</td>
+			</tr>
+		</table>
+    </form>    
+  </body>
+</html>

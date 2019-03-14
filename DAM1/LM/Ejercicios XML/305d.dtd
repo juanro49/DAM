@@ -1,0 +1,16 @@
+<!ELEMENT hoteles (hotel+)>
+<!ELEMENT hotel (nombre, direccion, ciudad, pais, estrellas, descripcion, habitaciones)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT direccion (calle, numero)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT ciudad (#PCDATA)>
+  <!ELEMENT pais (#PCDATA)>
+  <!ELEMENT estrellas (#PCDATA)>
+  <!ELEMENT descripcion (parrafo+)>
+    <!ELEMENT parrafo (#PCDATA)>
+  <!ELEMENT habitaciones (individuales, dobles, triples, suties)>
+    <!ELEMENT individuales (#PCDATA)>
+    <!ELEMENT dobles (#PCDATA)>
+    <!ELEMENT triples (#PCDATA)>
+    <!ELEMENT suties (#PCDATA)>

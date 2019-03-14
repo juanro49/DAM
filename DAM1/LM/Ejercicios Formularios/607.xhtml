@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+     <title>Ejercicio 607</title>
+	 <link rel="stylesheet" type="text/css" href="607.css"/>
+  </head>
+  <body>
+	<form name="formulario" action="http://..." method="get">
+		<table id="tabla">
+			<caption>Registrarse como usuario</caption>
+			<tr>
+				<th>Apellido</th>
+				<td>
+					<input type="text" name="Apellido"/>
+				</td>
+			</tr>
+			<tr>
+				<th>Nombre</th>
+				<td>
+					<input type="text" name="Nombre"/>
+				</td>
+			</tr>
+			<tr>
+				<th>Género</th>
+				<td class="centrado">
+						Hombre:<input type="radio" name="Hombre" value="Hombre"/> 
+						Mujer:<input type="radio" name="Mujer" value="Mujer"/>
+				</td>
+			</tr>
+			<tr>
+				<th>Ocupación</th>
+				<td class="centrado">
+					<select name="Ocupación">
+						<option value="Profesor">Profesor</option>
+						<option value="Minero">Minero</option>
+						<option value="Nini">Nini</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Comentarios</th>
+				<td class="centrado">
+					<textarea name="Comentarios" rows="5" cols="30">Escriba aquí sus comentarios</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" name="Enviar" value="Enviar"/>
+				</td>
+				<td class="derecha">
+					<input type="reset" name="Cancelar" value="Cancelar"/>
+				</td>
+			</tr>
+		</table>
+    </form>    
+  </body>
+</html>

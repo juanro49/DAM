@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nota SYSTEM "Ejemplo_303.dtd"> 
+<nota>
+  <para>José</para>
+  <de>Juan</de>
+  <cabecera>Recordatorio</cabecera>
+  <cuerpo>Reunión mañana a primera hora</cuerpo>
+</nota>

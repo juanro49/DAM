@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ea764f">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Manzanas"
+        android:id="@+id/tvManzanas"
+        android:background="#637bb1"
+        android:textColor="#0033ff"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="28dp"
+        android:padding="10dp"
+        android:onClick="manzanas"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Peras"
+        android:id="@+id/tvPeras"
+        android:background="#637bb1"
+        android:textColor="#0033ff"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginBottom="2dp"
+        android:padding="10dp"
+        android:onClick="peras"
+        android:layout_below="@+id/tvManzanas"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plátanos"
+        android:id="@+id/tvPlatanos"
+        android:background="#637bb1"
+        android:textColor="#0033ff"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="platanos"
+        android:layout_below="@+id/tvPeras"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

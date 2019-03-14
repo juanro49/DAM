@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.juan11791.proyecto405.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNO"
+        android:id="@+id/textView"
+        android:textSize="50dp"
+        android:padding="30dp"
+        android:background="#009300"
+        android:textColor="#b0092800"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOS"
+        android:id="@+id/textView2"
+        android:textSize="50dp"
+        android:padding="30dp"
+        android:background="#00c700"
+        android:textColor="#b0092800"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRES"
+        android:id="@+id/textView3"
+        android:textSize="50dp"
+        android:padding="30dp"
+        android:background="#004e00"
+        android:textColor="#b0092800"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUATRO"
+        android:id="@+id/textView4"
+        android:textSize="50dp"
+        android:padding="30dp"
+        android:background="#8cfc8c"
+        android:textColor="#b0092800"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CINCO"
+        android:id="@+id/textView5"
+        android:textSize="50dp"
+        android:padding="30dp"
+        android:background="#8ef23c"
+        android:textColor="#b0092800"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+</RelativeLayout>

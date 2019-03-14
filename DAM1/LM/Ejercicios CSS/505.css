@@ -1,0 +1,39 @@
+a:link
+{
+	font-family:fantasy;
+	font-size:12px;
+	font-weight:bold;
+	color:#0000FF;
+	text-decoration:none;
+}
+
+a:visited
+{
+	font-family:fantasy;
+	font-size:12px;
+	font-weight:bold;
+	color:#FF0000;
+	text-decoration:none;
+} 
+.clase1 a:hover
+{
+	font-family:fantasy;
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+.clase2 a:hover
+{
+	font-family:sans-serif;
+	font-size:20px;
+	text-decoration:underline;
+}
+
+a:active
+{
+	font-family:fantasy;
+	font-size:20px;
+	font-weight:bold;
+	color:#00FF00;
+	text-transform:uppercase;
+}

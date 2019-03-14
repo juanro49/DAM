@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#68d966"
+    tools:context="com.example.juan11791.proyecto607.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNombre"
+        android:hint="Nombre..."
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp" />
+
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/etNombre"
+        android:layout_centerHorizontal="true">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hombre"
+            android:id="@+id/rbHombre"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mujer"
+            android:id="@+id/rbMujer"
+            android:layout_below="@+id/rbHombre"
+            android:layout_centerHorizontal="true" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etEdad"
+        android:hint="Edad..."
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/etSalario" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/etSalario"
+        android:hint="Salario..."
+        android:layout_below="@+id/etEdad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOSTRAR"
+        android:id="@+id/btnMostrar"
+        android:onClick="mostrar"
+        android:layout_below="@+id/etSalario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+</RelativeLayout>

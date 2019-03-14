@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos [
+  <!ELEMENT alumnos (alumno+)>
+    <!ELEMENT alumno (nombre, apellidos, domicilio, telefono+, equipo?, (provincia | pais), comentario?, sexo?, notas)>
+      <!ATTLIST alumno matricula ID #REQUIRED>
+      <!ATTLIST alumno ayudado IDREFS #IMPLIED>
+      <!ELEMENT nombre (#PCDATA)>
+      <!ELEMENT apellidos (#PCDATA)>
+      <!ELEMENT domicilio (#PCDATA)>
+      <!ELEMENT telefono (#PCDATA)>
+        <!ATTLIST telefono pertenece (propio | padre | madre | tutor) #REQUIRED>
+      <!ELEMENT equipo (#PCDATA)>
+      <!ELEMENT provincia (#PCDATA)>
+      <!ELEMENT pais (#PCDATA)>
+      <!ELEMENT comentario ANY>
+      <!ELEMENT sexo (hombre? | mujer?)>
+        <!ELEMENT hombre EMPTY>
+        <!ELEMENT mujer EMPTY>
+      <!ELEMENT notas (evaluacion, calificacion)+>
+        <!ELEMENT evaluacion (#PCDATA)>
+        <!ELEMENT calificacion (#PCDATA)>
+]>
+
+<alumnos>
+  <alumno matricula="A1">
+    <nombre>Jean</nombre>
+    <apellidos>Dupont</apellidos>
+    <domicilio>Campos Elíseos</domicilio>
+    <telefono pertenece="propio">+034</telefono>
+    <pais>Francia</pais>
+    <comentario>Esto es un comentario</comentario>
+    <sexo>
+      <hombre/>
+    </sexo>
+    <notas>
+      <evaluacion>1</evaluacion>
+      <calificacion>7</calificacion>
+      <evaluacion>2</evaluacion>
+      <calificacion>5</calificacion>
+    </notas>
+  </alumno>
+  <alumno matricula="A2">
+    <nombre>Pepe</nombre>
+    <apellidos>Pérez Fernández</apellidos>
+    <domicilio>C/ Alcalá</domicilio>
+    <telefono pertenece="madre">9110</telefono>
+    <provincia>Madrid</provincia>
+    <notas>
+      <evaluacion>1</evaluacion>
+      <calificacion>7</calificacion>
+    </notas>
+  </alumno>
+  <alumno matricula="A3" ayudado="A1 A2">
+    <nombre>Luisa</nombre>
+    <apellidos>García Rodríguez</apellidos>
+    <domicilio>C/ Gran Vía</domicilio>
+    <telefono pertenece="tutor">9111</telefono>
+    <provincia>Madrid</provincia>
+    <sexo>
+      <mujer/>
+    </sexo>
+    <notas>
+      <evaluacion>1</evaluacion>
+      <calificacion>9</calificacion>
+    </notas>
+  </alumno>
+</alumnos>

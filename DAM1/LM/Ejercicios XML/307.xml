@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "307.dtd">
+
+<concesionario>
+  <modelo ref="M556"/>
+  <modelo ref="M555" modelos_relacionados="M444 M556" motor="1998cc" motor_relacionado_modelo="M556">
+    <descripción>
+      Cuatro cilindros, 112 CV.
+      Cambio manual
+      Consumo medio de 8.5l a los 100 Km.
+      Precio de 19.950€
+    </descripción>
+  </modelo>
+  <modelo ref="M557"/>
+  <modelo ref="M154"/>
+  <modelo ref="M444" modelos_relacionados="M555 M154" motor="2000cc" motor_relacionado_modelo="M556">
+    <descripción>
+      Cuatro cilindros, 128 CV.
+      Cambio automático.
+      Consumo medio de 9.5l a los 100 Km.
+      Precio de 20.950€
+    </descripción>
+  </modelo>
+</concesionario>

@@ -1,0 +1,23 @@
+a)
+
+	//nombre/text()
+	
+b)
+
+	//nombre[../ciclo="ASIR"]/text()
+	
+c)
+
+	//nombre[../curso="2"]/text()
+	
+d)
+
+	//nombre[../horassemanales < 5]/text()
+	
+e)
+
+	//nombre[../ciclo="ASIR" and ../curso=1]/text()
+	
+f)
+
+	//modulo[curso=1]/@id

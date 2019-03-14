@@ -1,0 +1,35 @@
+instituto
+{
+	font-family:verdana;
+}
+
+nombre
+{
+	font-size:25px;
+	font-weight:bolder;
+}
+
+web
+{
+	font-size:10px;
+	display:block;
+	margin-bottom:10px;
+}
+
+titulo
+{
+	display:list-item;
+	list-style:disc inside;
+}
+
+grado
+{
+	display:list-item;
+	list-style:disc inside;
+}
+
+decreto
+{
+	display:list-item;
+	list-style:disc inside;
+}

@@ -1,0 +1,19 @@
+biblioteca
+{
+	font-size:20px;
+}
+
+libro
+{
+	list-style:square inside;
+	display:list-item;
+}
+titulo
+{
+	color:red;
+}
+
+autor
+{
+	color:green;
+}

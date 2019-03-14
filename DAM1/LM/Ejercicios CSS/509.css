@@ -1,0 +1,35 @@
+body
+{
+	background-color:#f3e2a9;
+}
+
+td
+{
+	padding:10px;
+}
+
+#mayusculas
+{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.izquierda
+{
+	text-align:left;
+}
+
+.centro
+{
+	text-align:center;
+}
+
+.derecha
+{
+	text-align:right;
+}
+
+.justificado
+{
+	text-align:justify;
+}

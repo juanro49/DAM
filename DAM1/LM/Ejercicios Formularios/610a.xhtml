@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+     <title>Ejercicio 610a</title>
+	 <link rel="stylesheet" type="text/css" href="610.css"/>
+  </head>
+  <body>
+	<form name="formulario" action="http://..." method="get">
+		<h1>FORMULARIO DE CONTACTO</h1>
+		<div>
+			<fieldset class="registro">
+				<legend>Registrarse como usuario</legend>
+				<fieldset class="identificacion">
+					<legend>Identificación</legend>
+					<label for="apellido">Apellido</label>
+					<input id="apellido" type="text" name="apellido"/>
+					<br/>
+					<br/>
+					<label for="nombre">Nombre</label>
+					<input id="nombre" type="text" name="nombre"/>
+				</fieldset>
+				
+				<fieldset class="datos">
+					<legend>Otros datos</legend>
+					<fieldset class="otros">
+						<legend>Género</legend>
+						<label for="hombre">Hombre</label>
+						<input id="hombre" type="radio" name="hombre" value="hombre"/>
+						<label for="mujer">Mujer</label>
+						<input id="mujer" type="radio" name="mujer" value="mujer"/>
+					</fieldset>
+					
+					<fieldset class="otros">
+						<legend>Ocupación</legend>
+						<select name="ocupacion">
+							<option name="profesor" value="profesor">Profesor</option>
+							<option name="nini" value="nini">Nini</option>
+						</select>
+					</fieldset>
+					
+					<fieldset class="otros">
+						<legend>Comentarios</legend>
+						<textarea name="comentarios" cols="20" rows="7">Escriba aquí sus comentarios</textarea>
+					</fieldset>
+				</fieldset>
+				
+				<fieldset class="confirmar">
+					<legend>Confirmar/Rechazar</legend>
+					<input type="submit" name="Enviar" value="Enviar"/>
+					<input type="reset" name="Cancelar" value="Cancelar"/>
+				</fieldset>
+			</fieldset>
+		</div>
+    </form>    
+  </body>
+</html>

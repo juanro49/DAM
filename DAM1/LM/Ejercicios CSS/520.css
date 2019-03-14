@@ -1,0 +1,47 @@
+table
+{
+	border:5px solid grey;
+	text-align:center;
+}
+
+caption
+{
+	color:red;
+	font-size:32px;
+}
+
+
+.azul
+{
+	background-color:#84afcb;
+}
+
+.rosa
+{
+	background-color:#cb84a8;
+}
+
+.verde
+{
+	background-color:#88cb84;
+}
+
+.azuve
+{
+	background-color:#84cba3;
+}
+
+.violeta
+{
+	background-color:#b484cb;
+}
+
+.naranja
+{
+	background-color:#ff8b00;
+}
+
+.rojo
+{
+	background-color:#ff0000;
+}

@@ -1,0 +1,39 @@
+Aplicación de alquiler de coches
+
+Clases:
+	Empleado
+	Coche
+	Usuario
+	Alquiler
+	
+Formularios:
+	Solo admin:
+		Añadir Empleados
+		Eliminar empleados
+		Añadir Coches
+		Eliminar Coches
+		
+	Cualquier empleado:
+		Añadir Usuarios
+		Eliminar Usuarios
+		Prestar Coches
+		Devolver Coches
+
+Tablas Base de datos:
+	Empleados:
+		usuario, contrasena, tipo(vendedor o jefe), correo
+		
+	Coches:
+		matricula, marca, modelo, existencias, precioDia
+	
+	Usuarios:
+		dni, nombre, apellido, correo, telefono
+		
+	Alquileres:
+		usuario(dni), marca, modelo, matricula, f_alq, f_dev, precio
+		
+Estructura:
+	Los empleados se almacenarán en un array estático de 3 posiciones que será el máximo de trabajadores de la empresa incluyendo el jefe
+	Los usuarios y los coches se guardarán en listas dinámicas
+	
+Nota: Precio obtenido con la app Bipi

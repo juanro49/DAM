@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/boton_presionado"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/boton_enfocado"
+        android:state_focused="true" />
+    <!--<item android:drawable="@drawable/boton_deshabilitado"
+        android:state_enabled="false" />-->
+    <item android:drawable="@drawable/boton_normal" />
+</selector>

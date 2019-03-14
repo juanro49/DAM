@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hoteles SYSTEM "305d.dtd">
+<hoteles>
+    <hotel>
+      <nombre>Senator</nombre>
+      <direccion>
+        <calle>Alcalá</calle>
+        <numero>10</numero>
+      </direccion>
+      <ciudad>Madrid</ciudad>
+      <pais>España</pais>
+      <estrellas>5</estrellas>
+      <descripcion>
+        <parrafo>Hotel de lujo</parrafo>
+        <parrafo>Situado en el centro de Madrid</parrafo>
+      </descripcion>
+      <habitaciones>
+        <individuales>20</individuales>
+        <dobles>30</dobles>
+        <triples>15</triples>
+        <suties>8</suties>
+      </habitaciones>
+    </hotel>
+    <hotel>
+      <nombre>Extremadura</nombre>
+      <direccion>
+        <calle>Ruta de la Plata</calle>
+        <numero>1</numero>
+      </direccion>
+      <ciudad>Cáceres</ciudad>
+      <pais>España</pais>
+      <estrellas>4</estrellas>
+      <descripcion>
+        <parrafo>Hotel funcional</parrafo>
+        <parrafo>Situado a la entrada de Cáceres</parrafo>
+      </descripcion>
+      <habitaciones>
+        <individuales>10</individuales>
+        <dobles>40</dobles>
+        <triples>5</triples>
+        <suties>16</suties>
+      </habitaciones>
+    </hotel>
+  </hoteles>

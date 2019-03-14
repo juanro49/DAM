@@ -1,0 +1,20 @@
+nombre#apellidos#123#18#qwe#juanro.aof@gmail.com
+Jesus#avila#22222222z#20#estudiante#
+Alberto#cantero#33333333x#20#estudiante#
+Javier#cespedes#44444444c#23#estudiante#
+juan jesus#gil#77777777y#23#estudiante#
+Sergio#sanchez#121212121W#24#estudiante#
+Ana#Hernandez#36877887t#28#abogado#
+Jesus#fernandez#55555555t#34#medico#
+Juan roberto#garcia#666666u#34#ingeniero#
+Joaquin#rivero#56565656Z#34#programador#
+Pedro#Jimenez#98989898l#34#analista#
+Alberto#sierra#54545454N#34#ingeniero#
+Maria#Duque#11111111z#35#profesor#
+Cristian#guerrero#99999999p#35#profesor#
+David#ortega#78787878G#35#abogado#
+Diego#gomez#88888888o#40#pintor#
+Miguel angel#manzano#09090909r#40#medico#
+Jose angel#rey#67676767V#55#pintor#
+Jesus#hidalgo#76767676f#65#jubilado#
+Alberto#sanchez#43434334V#75#jubilado#

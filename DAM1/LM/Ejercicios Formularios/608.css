@@ -1,0 +1,44 @@
+﻿form
+{
+	background-color:#CCFF99;
+	margin:50px;
+	padding-bottom:50px;
+}
+
+h1
+{
+	text-align:center;
+}
+
+table
+{
+	border:3px double blue;
+	background-color:#78bef4;
+	margin-left:150px;
+	width:50%;
+}
+
+hr
+{
+	border:2px solid red;
+	width:50%;
+}
+
+.botones
+{
+
+	margin-left:150px;
+	border:2px solid cyan;
+	padding:0px;
+	width:50%;
+}
+
+.enviar
+{
+	background-color:FF9933;
+}
+
+.borrar
+{
+	background-color:FF9999;
+}

@@ -1,0 +1,14 @@
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.exe.config
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.exe
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.pdb
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.xml
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbprojAssemblyReference.cache
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form1.resources
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.exe
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.xml
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.pdb
+c:\users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form2.resources
+C:\Users\usuario\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form3.resources

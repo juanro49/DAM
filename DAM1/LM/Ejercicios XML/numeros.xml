@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE numeros [
+	<!ELEMENT numeros (#PCDATA)>
+]>
+
+<numeros>25</numeros>

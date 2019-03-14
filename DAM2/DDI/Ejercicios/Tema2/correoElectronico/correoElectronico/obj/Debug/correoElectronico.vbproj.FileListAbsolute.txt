@@ -1,0 +1,12 @@
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\bin\Debug\correoElectronico.exe.config
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\bin\Debug\correoElectronico.exe
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\bin\Debug\correoElectronico.pdb
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\bin\Debug\correoElectronico.xml
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\obj\Debug\correoElectronico.vbprojAssemblyReference.cache
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\obj\Debug\correoElectronico.Form1.resources
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\obj\Debug\correoElectronico.Resources.resources
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\obj\Debug\correoElectronico.vbproj.GenerateResource.cache
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\obj\Debug\correoElectronico.vbproj.CoreCompileInputs.cache
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\obj\Debug\correoElectronico.exe
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\obj\Debug\correoElectronico.xml
+C:\Users\MariaPC\Desktop\Agora\DI\Vb\correo\correoElectronico\correoElectronico\obj\Debug\correoElectronico.pdb

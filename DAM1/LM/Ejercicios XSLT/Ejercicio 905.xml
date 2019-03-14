@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<universidad>
+    <nombre>Universidad de Victoria</nombre>
+    <pais>España</pais>
+    <carreras>
+        <carrera id="c01">
+            <nombre>I.T. Informática</nombre>
+            <plan>2003</plan>
+            <creditos>250</creditos>
+            <centro>Escuela de Informática</centro>
+        </carrera>
+        <carrera id="c02">
+            <nombre>Dipl. Empresariales</nombre>
+            <plan>2001</plan>
+            <creditos>275</creditos>
+            <centro>Facultad de Ciencias Sociales</centro>
+        </carrera>
+        <carrera id="c03">
+            <nombre>Dipl. Relaciones Laborales</nombre>
+            <plan>2001</plan>
+            <creditos>280</creditos>
+            <centro>Facultad de Ciencias Sociales</centro>
+            <subdirector>Alfonso Martín  Luque</subdirector>
+        </carrera>
+        <carrera id="c04">
+            <nombre>Lic. Quimica</nombre>
+            <plan>2003</plan>
+            <creditos>175</creditos>
+            <centro>Facultad de Ciencias Experimentales</centro>
+        </carrera>
+    </carreras>
+    <asignaturas>
+        <asignatura id="a01" titulacion="c01">
+            <nombre>Ofimática</nombre>
+            <creditos_teoricos>3</creditos_teoricos>
+            <creditos_practicos>1.5</creditos_practicos>
+            <trimestre>1</trimestre>
+        </asignatura>
+        <asignatura id="a02" titulacion="c01">
+            <nombre>Ingeniería del Software</nombre>
+            <creditos_teoricos>6</creditos_teoricos>
+            <creditos_practicos>1.5</creditos_practicos>
+            <trimestre>2</trimestre>
+        </asignatura>
+        <asignatura id="a03" titulacion="c02">
+            <nombre>Administración de Empresas</nombre>
+            <creditos_teoricos>4</creditos_teoricos>
+            <creditos_practicos>1.5</creditos_practicos>
+            <trimestre>1</trimestre>
+        </asignatura>
+    </asignaturas>
+    <alumnos>
+        <alumno id="e01">
+            <apellido1>Rivas</apellido1>
+            <apellido2>Santos</apellido2>
+            <nombre>Víctor Manuel</nombre>
+            <sexo>Hombre</sexo>
+            <estudios>
+                <carrera codigo="c01"/>
+                <asignaturas>
+                    <asignatura codigo="a01"/>
+                    <asignatura codigo="a03"/>
+                </asignaturas>
+            </estudios>
+        </alumno>
+        <alumno id="e02">
+            <apellido1>Pérez</apellido1>
+            <apellido2>García</apellido2>
+            <nombre>Luisa</nombre>
+            <sexo>Mujer</sexo>
+            <estudios>
+                <carrera codigo="c02"/>
+                <asignaturas>
+                    <asignatura codigo="a02"/>
+                    <asignatura codigo="a01"/>
+                </asignaturas>
+                <proyecto>Web de IBM.com</proyecto>
+            </estudios>
+        </alumno>
+        <alumno id="e03" beca="si">
+            <apellido1>Fernández</apellido1>
+            <apellido2>Romero</apellido2>
+            <nombre>Fernando</nombre>
+            <sexo>Hombre</sexo>
+            <estudios>
+                <carrera codigo="c02"/>
+                <asignaturas>
+                    <asignatura codigo="a02"/>
+                    <asignatura codigo="a03"/>
+                </asignaturas>
+            </estudios>
+        </alumno>
+    </alumnos>
+</universidad>

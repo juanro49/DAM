@@ -1,0 +1,13 @@
+﻿11111111z#El viejo y el mar#Ernest Hemingway#44144
+11111111z#Soy un gato#Natsume Soseki#77777
+44444444c#El proceso#Franz Kafka#66616
+56565656Z#El viejo y el mar#Ernest Hemingway#44144
+56565656Z#El lobo estepario#Hermann Hesse#78905
+56565656Z#Lolita#Vladimir Nabokov#66166
+76767676f#El lobo estepario#Hermann Hesse#78905
+76767676f#El viejo y el mar#Ernest Hemingway#44144
+76767676f#El proceso#Franz Kafka#66616
+121212121W#El lobo estepario#Hermann Hesse#78905
+121212121W#El viejo y el mar#Ernest Hemingway#44144
+54545454N#El viejo y el mar#Ernest Hemingway#44144
+54545454N#El proceso#Franz Kafka#66616

@@ -1,0 +1,80 @@
+﻿Estructura:
+	*/ Comentarios */
+	// Comentario
+
+	Directivas del procesador # include <nombre-lib>
+
+	Declaración de funciones y variables globales
+
+	int main ()
+	{
+	}
+
+Ejemplo:
+	//Programa1
+
+	#include <stdio.h>
+
+	using namespace std;
+
+	int devuelveEdad();
+
+	int main()
+	{
+	}
+
+Introducir datos por teclado:
+	cin.getline((char*)s.str(), 256); --> Caracteres
+	
+	int n;
+	cin >> n; --> Dígitos
+	
+Mostrar datos en pantalla:
+	cout << "Hola Mundo\n" << endl;
+	
+Cadenas con char
+	char c;
+	char cad1 [5]; H O L A \0
+	
+	fgets(cadena, tamaño, stdin) --> Entrada de texto
+	fgets(cad1, 256, stdin)
+	strtok(cad1, "\n"); --> Elimina el salto de linea que añade fgets al final
+	
+	printf("%s", cad1) --> Salida de texto
+	
+	char *cadena; --> Puede ir cambiando de tamaño
+	cadena = (char*) malloc(tamaño); --> Reserva memoria
+	
+	char cadena = "Hola";
+	char cadena [100] = {'h','o','l','a'}; --> Inicializar en forma de vector;
+	
+	strlen(cadena); --> devuelve el tamaño de la cadena
+	strcpy(destino, origen); --> copia una cadena en otra
+	strcat(destino, origen); --> concatena las cadenas
+	strcmp(cad1, cad1); --> compara el tamaño de las cadenas (<0 --> cad1 < cad2, >0 -- cad2 < cad1, =0 --> cad1 = cad2)
+	
+	#define Max 100; --> Define el tamaño
+	char cadena[Max];
+	
+	#pragma warning(disable : 4996) --> Desactivar warnings
+	
+Cadenas con string
+	string cad1;
+	string cad1 = "hola";
+	
+	cin.getline((char*)cad1.c_str(), 256); --> Lee cadenas por teclado
+	
+	cad1.length() --> Devuelve el tamaño
+	cad[3] = "A" -- Asigna un caracter a una posición del string
+	
+	cad1 + cad2 --> Concatena cadenas
+	cad1 == cad2 --> Compara cadenas (caracteres ascii)
+	cad1.find(key) --> Busca caracter o subcadena
+	cad1.find(key, n) --> Busca caracter o subcadena a partir de la posicion n
+	cad1.substr(inicio, fin) --> crea una subcadena desde la posicion inicio hasta la posicion fin
+	cad1.insert(start, cad2) --> Inserta cad2 en cad1 a partir de la posicion start
+	cad1.replace(start, long, cad2) --> crea cad2 con los caracteres de start a long de cad1
+	
+	
+	
+	

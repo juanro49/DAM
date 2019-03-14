@@ -1,0 +1,5 @@
+<!ELEMENT museos (museo+)> 
+<!ELEMENT museo (nombre,ciudad,pais)> 
+<!ELEMENT nombre (#PCDATA)> 
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)> 

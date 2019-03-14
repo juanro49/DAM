@@ -1,0 +1,12 @@
+<!ELEMENT cd (artista,titulocd,fechacrea,genero,cancion+)>
+  <!ELEMENT artista (nombre,fechanaci,lugarnaci)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT fechanaci (#PCDATA)>
+    <!ELEMENT lugarnaci (#PCDATA)>
+  <!ELEMENT titulocd (#PCDATA)>
+  <!ELEMENT fechacrea (#PCDATA)>
+  <!ELEMENT genero (#PCDATA)>
+  <!ELEMENT cancion (titulo,duracion)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+      <!ATTLIST duracion tiempo NMTOKEN #REQUIRED>

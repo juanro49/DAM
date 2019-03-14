@@ -1,0 +1,9 @@
+<!ELEMENT ies (nombrecentro,web,ciclos)>
+  <!ELEMENT nombrecentro (#PCDATA)>
+  <!ELEMENT web (#PCDATA)>
+  <!ELEMENT ciclos (ciclo+)>
+    <!ELEMENT ciclo (nombre,grado,decretotitulo)>
+      <!ATTLIST ciclo id ID #REQUIRED>
+      <!ELEMENT nombre (#PCDATA)>
+      <!ELEMENT grado (#PCDATA)>
+      <!ELEMENT decretotitulo (#PCDATA)>

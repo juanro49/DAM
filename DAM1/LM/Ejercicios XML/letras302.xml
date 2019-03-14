@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE letras [ 
+	<!ELEMENT letras (letra+)> 
+	<!ELEMENT letra (#PCDATA)> 
+]> 
+
+<letras> 
+	<letra>m</letra> 
+	<letra>uve doble</letra> 
+</letras>

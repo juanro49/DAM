@@ -1,0 +1,7 @@
+<!ELEMENT paises (pais+)> 
+<!ELEMENT pais (ciudad)>
+<!ELEMENT ciudad (museo)>
+<!ELEMENT museo EMPTY>
+	 <!ATTLIST pais nombre NMTOKENS #REQUIRED> 
+	 <!ATTLIST ciudad nombre NMTOKEN #REQUIRED> 
+	 <!ATTLIST museo nombre NMTOKENS #REQUIRED> 

@@ -1,0 +1,37 @@
+﻿#tabla
+{
+	border:3px double blue;
+	background-color:#78bef4;
+	margin:auto;
+	width:50%;
+}
+
+#tabla caption
+{
+	font-weight:bold;
+
+}
+
+#tabla td
+{
+	border:1px solid blue;
+	background-color:#78bef4;
+	padding:10px;
+}
+
+#tabla th
+{
+	border:1px solid blue;
+	background-color:#78bef4;
+
+}
+
+.centrado
+{
+	text-align:center;
+}
+
+.derecha
+{
+	text-align:right;
+}

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="iso-8859-15"?>
+<factura num="999">
+	<cliente num="879">
+		<nombre>josé Rodríguez</nombre>
+		<tfno>9101010</tfno>
+	</cliente>
+	<datosfactura>
+		<linea ref="A101">
+			<descrip>Placa Base QDI</descrip>
+			<cantidad>1</cantidad>
+			<precio>230</precio>
+		</linea>
+		<linea ref="A105">
+			<descrip>DIMM DDR</descrip>
+			<cantidad>4</cantidad>
+			<precio>110</precio>
+		</linea>
+		<linea ref="A101">
+			<descrip>Disco Duro 800G</descrip>
+			<cantidad>1</cantidad>
+			<precio>150</precio>
+		</linea>
+	</datosfactura>
+</factura>

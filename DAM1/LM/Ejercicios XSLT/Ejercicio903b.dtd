@@ -1,0 +1,3 @@
+<!ELEMENT museos (museo+)> 
+<!ELEMENT museo (#PCDATA)> 
+	<!ATTLIST museo ubicacion CDATA #REQUIRED>

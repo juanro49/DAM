@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE colores [ 
+	<!ELEMENT colores ANY> 
+	<!ELEMENT color (#PCDATA)> 
+]> 
+ 
+<colores> 
+	<color>azul marino</color> 
+	negro
+<color>amarillo</color>
+</colores>

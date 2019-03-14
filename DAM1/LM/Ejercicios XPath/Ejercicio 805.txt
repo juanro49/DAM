@@ -1,0 +1,35 @@
+1)
+
+	//carreras/carrera[@id="02"]/centro/text()
+	
+2)
+
+	//carrera/subdirector/../nombre/text()
+	
+3)
+
+	//carrera[@id=//alumno/estudios/carrera/@codigo]/@id
+	
+4)
+
+	//alumno[@beca="si"]/nombre/text()
+	
+5)
+
+	//asignatura[@id="a01" and @titulacion="c01"]/nombre/text()
+	
+6)
+
+	//asignatura[trimestre=1]/nombre/text()
+	
+7)
+
+	//asignatura[creditos_teoricos!=4]/nombre/text()
+	
+8)
+
+	//alumno/estudios/proyecto/../../nombre/text()
+	
+9)
+
+	//alumno[last()-1]/estudios/asignaturas/asignatura/@codigo

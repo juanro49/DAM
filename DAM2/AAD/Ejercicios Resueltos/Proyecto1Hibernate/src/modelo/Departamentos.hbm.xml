@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 15-feb-2019 17:55:56 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="modelo.Departamentos" table="departamentos" catalog="empresa">
+        <id name="deptNo" type="byte">
+            <column name="dept_no" />
+            <generator class="assigned" />
+        </id>
+        <property name="dnombre" type="string">
+            <column name="dnombre" length="15" />
+        </property>
+        <property name="loc" type="string">
+            <column name="loc" length="15" />
+        </property>
+        <set name="empleadoses" table="empleados" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="dept_no" not-null="true" />
+            </key>
+            <one-to-many class="modelo.Empleados" />
+        </set>
+    </class>
+</hibernate-mapping>

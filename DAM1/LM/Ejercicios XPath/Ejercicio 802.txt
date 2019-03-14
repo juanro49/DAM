@@ -1,0 +1,35 @@
+a)
+
+	/ies/nombre/text()
+
+b)
+
+	//web/text()
+
+c)
+
+	/ies/ciclos/ciclo/nombre/text()
+
+d)
+
+	/ies/ciclos/ciclo/@id
+
+e)
+
+	//decretotitulo/@año
+
+f)
+
+	//ciclo[grado='Medio']
+
+g)
+
+	//ciclo[grado="Superior"]/nombre
+
+h)
+
+	//ciclo[decretotitulo/@año<2010]/nombre/text()
+
+i)
+
+	//ciclo[decretotitulo/@año=2010 or decretotitulo/@año=2008]/nombre/text()

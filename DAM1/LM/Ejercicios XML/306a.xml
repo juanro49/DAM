@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "306a.dtd">
+
+<persona>
+  <nombre dni="D00000000A">Persona 1</nombre>
+  <nacimiento>
+    <día>1</día>
+    <mes>1</mes>
+    <año>0</año>
+  </nacimiento>
+  <dirección>
+    <calle>calle 1</calle>
+    <población>pueblolandia</población>
+    <provincia>independiente</provincia>
+  </dirección>
+  <nombre dni="D99999999Z">Persona 2</nombre>
+  <dirección>
+    <calle>mi calle</calle>
+    <población>pueblolandia</población>
+    <provincia>independiente</provincia>
+  </dirección>
+  <dirección>
+    <calle>calle 2</calle>
+    <población>pueblo</población>
+    <provincia>melilla</provincia>
+  </dirección>
+  <sexo>
+    <hembra/>
+  </sexo>
+</persona>

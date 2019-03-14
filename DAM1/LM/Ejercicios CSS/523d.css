@@ -1,0 +1,37 @@
+biblioteca
+{
+	font-size:20px;
+	display:table;
+	border:2px solid black;
+	border-spacing:2px;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+libro
+{
+	display:table-row;
+}
+
+titulo
+{
+	color:red;
+	display:table-cell;
+	border:2px solid black;
+	padding:10px;
+}
+
+autor
+{
+	color:green;
+	display:table-cell;
+	border:2px solid black;
+	padding:10px;
+}
+
+edicion
+{
+	display:table-cell;
+	border:2px solid black;
+	padding:10px;
+}

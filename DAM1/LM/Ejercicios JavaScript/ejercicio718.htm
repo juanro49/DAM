@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/>
+<title>Ejercicio 718</title>
+<script type="text/javascript" src="ejercicio718.js"></script>
+
+</head>
+<body>
+	<table width="60%" border="3" bgcolor="#99FFFF">
+	<tr><td>
+		<form action="http://..." method="post">
+			<fieldset>
+				<legend>Calcular Costes</legend><br/>
+				<table border="2">
+					<caption>Listado de productos y precios</caption>
+					<tr align="center">
+						<th>Producto</th><th>Precio por Kg.</th><th>Seleccionar</th>
+					</tr>
+					<tr align="center">
+						<td>Naranjas</td><td>0.75</td><td><input type="radio" name="frutas" id="naranjas"/></td>
+					</tr>
+					<tr align="center">
+						<td>Manzanas</td><td>1.50</td><td><input type="radio" name="frutas" id="manzanas"/></td>
+					</tr>
+					<tr align="center">
+						<td>Plátanos</td><td>2.25</td><td><input type="radio" name="frutas" id="platanos"/></td>
+					</tr>
+				</table><br/>
+				<label for="cantidad">Cantidad</label>
+				<input type="text" id="cantidad" value="1"/><br/><br/>
+				<label for="forma">Forma de Pago</label>
+				<select name="forma" id="forma">
+					<option id="contado" value="Contado">Contado</option>
+					<option id="unmes" value="1Mes">1 Mes</option>
+					<option id="tresmeses" value="3Meses">3 Meses</option>
+				</select>
+				<label for="transporte">Transporte</label>
+				<input type="checkbox" name="transporte" id="transporte"/>
+			</fieldset><br/>
+			<fieldset>
+				<input type="button" value="Calcular" onclick="calcular()"/> 
+				<input type="reset" name="resetear" id="resetear" value="Resetear" />
+			</fieldset>
+		</form>
+		</td></tr>
+	</table>
+</body>
+</html>

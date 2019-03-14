@@ -1,0 +1,21 @@
+Maria#Duque#11111111z#35#profesor
+Jesus#avila#22222222z#20#estudiante
+Alberto#cantero#33333333x#20#estudiante
+Javier#cespedes#44444444c#23#estudiante
+Jesus#fernandez#55555555t#34#medico
+Juan roberto#garcia#666666u#34#ingeniero
+Joaquin#rivero#56565656Z#34#programador
+juan jesus#gil#77777777y#23#estudiante
+Diego#gomez#88888888o#40#pintor
+Cristian#guerrero#99999999p#35#profesor
+Ana#Hernandez#36877887t#28#abogado
+Jesus#hidalgo#76767676f#65#jubilado
+Pedro#Jimenez#98989898l#34#analista
+Miguel angel#manzano#09090909r#40#medico
+David#ortega#78787878G#35#abogado
+Jose angel#rey#67676767V#55#pintor
+Joaquin#rivero#56565656Z#34#programador
+Sergio#sanchez#121212121W#24#estudiante
+Alberto#sanchez#43434334V#75#jubilado
+Alberto#sierra#54545454N#34#ingeniero
+Pedro#Jimenez#98989898l#34#analista

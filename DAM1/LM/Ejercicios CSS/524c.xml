@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet type="text/css" href="524c.css"?>
+
+<instituto>
+	<nombre>IES Ágora</nombre>
+	<web>http://www.iesagora.juntaextremadura.net</web>
+	<ciclos>
+		<ciclo id="ASIR">
+			<titulo>Administración de Sistemas Informáticos en Red</titulo>
+			<grado>Superior</grado>
+			<decreto>2009</decreto>
+		</ciclo>
+		<ciclo id="DAM">
+			<titulo>Desarrollo de Aplicaciones Multiplataforma</titulo>
+			<grado>Superior</grado>
+			<decreto>2010</decreto>
+		</ciclo>
+		<ciclo id="DAW">
+			<titulo>Desarrollo de Aplicaciones Web</titulo>
+			<grado>Superior</grado>
+			<decreto>2010</decreto>
+		</ciclo>
+		<ciclo id="SMR">
+			<titulo>Sistemas Microinformáticos y Redes</titulo>
+			<grado>Medio</grado>
+			<decreto>2008</decreto>
+		</ciclo>
+	</ciclos>
+</instituto>

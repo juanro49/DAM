@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="iso-8859-15"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Ejercicio 412b</title>
+	</head>
+	<body text="blue">
+		<br/>
+		<h2 align="center"><a name="introduccion">1.- Introducción</a></h2>
+		<p>
+			&nbsp;&nbsp; SQL, Structure Query Language (Lenguaje de Consulta Estructurado) es un lenguaje de programación para trabajar con base de datos relacionales como MySQL, Oracle, etc.
+		</p>
+		<p>
+			&nbsp;&nbsp; MySQL es un intérprete de SQL, es un servidor de base de datos.
+		</p>
+		<p>
+			&nbsp;&nbsp; MySQL permite crear base de datos y tablas, insertar datos, modificarlos, eliminarlos, ordenarlos, hacer consultas y realizar muchas operaciones, etc., resumiendo: administrar bases de datos.
+		</p>
+		<p>
+			&nbsp;&nbsp; Ingresando instrucciones en la línea de comandos o embebidas en un lenguaje como PHP nos comunicamos con el servidor. Cada sentencia debe acabar con punto y coma (;).
+		</p>
+		<p>
+			&nbsp;&nbsp; La sensibilidad a mayúsculas y minúsculas, es decir, si hace diferencia entre ellas, depende del sistema operativo, Windows no es sensible, pero Linux sí. Por ejemplo Windows interpreta igualmente las siguientes sentencias:
+			<br/>
+			<br/>
+			<code>
+				<center>
+					create database administracion;
+					<br/>
+					Create DataBase administracion;
+				</center>
+			</code>
+		</p>
+		<p>
+			&nbsp;&nbsp; Pero Linux interpretará como un error la segunda.
+		</p>
+		<p>
+			&nbsp;&nbsp; Se recomienda usar siempre minúsculas. Es más el sitio mysqlya.com.ar está instalado sobre un servidor Linux por lo que en todos los ejercicios deberán respetarse mayúsculas y minúsculas.
+		</p>
+		<p align="center"><a href="412.xhtml#comienzo">Volver</a></p>
+		<br/>
+		<h2 align="center"><a name="databases">2.- Show databases</a></h2>
+		<p>
+			&nbsp;&nbsp; Una base de datos es un conjunto de tablas.
+		</p>
+		<p>
+			&nbsp;&nbsp; Una base de datos tiene un nombre con el cual accederemos a ella.
+		</p>
+		<p>
+			&nbsp;&nbsp; Vamos a trabajar en una base de datos ya creada en el sitio, llamada "administracion".
+		</p>
+		<p>
+			&nbsp;&nbsp; Para que el servidor nos muestre las bases de datos existentes, se lo solicitamos enviando la instrucción:
+			<br/>
+			<br/>
+			<code>
+				<center><b>show databases;</b></center>
+			</code>
+		</p>
+		<p>
+			&nbsp;&nbsp; Nos mostrará los nombres de las bases de datos, debe aparecer en este sitio "administracion".
+		</p>
+		<p align="center"><a href="412.xhtml#comienzo">Volver</a></p>
+		<br/>
+		<h2 align="center"><a name="tablas">3.- Creación de una tabla y mostrar sus campos</a></h2>
+		<p>
+			&nbsp;&nbsp; Una base de datos almacena sus datos en tablas.
+		</p>
+		<p>
+			&nbsp;&nbsp; Una tabla es una estructura de datos que organiza los datos en columnas y filas; cada columna es un campo (o atributo) y cada fila, un registro. La intersección de una columna con una fila contiene un dato específico, un solo valor.
+		</p>
+		<p>
+			&nbsp;&nbsp; Cada registro contiene un dato por cada columna de la tabla.
+		</p>
+		<p>
+			&nbsp;&nbsp; Cada campo (columna) debe tener un nombre. El nombre del campo hace referencia a la información que almacenará.
+		</p>
+		<p>
+			&nbsp;&nbsp; Cada campo (columna) también debe definir el tipo de dato que almacenará.
+		</p>
+		<p align="center"><a href="412.xhtml#comienzo">Volver</a></p>
+		<br/>
+		<h2 align="center"><a name="registros">4.- Carga de registros a una tabla y su recuperación</a></h2>
+		<p>
+			&nbsp;&nbsp; Usamos "insert into". Especificamos los nombres de los campos entre paréntesis y separados por comas y luego los valores para cada campo, también entre paréntesis y separados por comas.
+		</p>
+		<p>
+			&nbsp;&nbsp; Es importante ingresar los valores en el mismo orden en que se nombran los campos, si ingresamos los datos en otro orden, no aparece un mensaje de error y los datos se guardan de modo incorrecto.
+		</p>
+		<p>
+			&nbsp;&nbsp; Note que los datos ingresados, como corresponden a campos de cadenas de caracteres, se colocan entre comillas simples. Las comillas simples son OBLIGATORIAS.
+		</p>
+		<p align="center"><a href="412.xhtml#comienzo">Volver</a></p>
+	</body>
+</html>

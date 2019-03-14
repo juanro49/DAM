@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 08-feb-2019 17:31:55 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="modelo.Administradores" table="administradores" catalog="dam_pruebas">
+        <id name="usuario" type="string">
+            <column name="Usuario" length="100" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="Nombre" length="100" />
+        </property>
+        <property name="apellidos" type="string">
+            <column name="Apellidos" length="200" />
+        </property>
+        <property name="clave" type="string">
+            <column name="Clave" length="100" />
+        </property>
+        <property name="email" type="string">
+            <column name="Email" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

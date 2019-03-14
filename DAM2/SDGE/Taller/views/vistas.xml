@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="taller_clientes_tree" model="ir.ui.view">
+			<field name="name">taller_clientes_tree</field>
+			<field name="model">taller_clientes</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="dni"/>
+					<field name="nombre"/>
+					<field name="apellidos"/>
+				</tree>     
+			</field>
+    </record>
+	
+    <record id="taller_clientes_form" model="ir.ui.view">
+			<field name="name">taller_clientes_form</field>
+			<field name="model">taller_clientes</field>
+			<field name="arch" type="xml">
+				<form>
+					<group colspan="2" col="2">
+						<field name="dni"/>
+						<field name="nombre"/>
+						<field name="apellidos"/>
+						<field name="coche"/>
+					</group>   
+				</form>     
+			</field>
+    </record>
+    
+    <record id="taller_clientes_busqueda" model="ir.ui.view">
+			<field name="name">taller_clientes_busqueda</field>
+			<field name="model">taller_clientes</field>
+			<field name="arch" type="xml">
+				<search>
+					<field name="dni" string="DNI"/>
+				</search>     
+			</field>
+    </record>
+
+    <record id="taller_clientes_action_window" model="ir.actions.act_window">
+		<field name="name">Clientes</field>
+		<field name="res_model">taller_clientes</field>
+		<field name="view_mode">tree,form</field>            
+    </record>
+
+    
+    <record id="taller_coches_tree" model="ir.ui.view">
+			<field name="name">taller_coches_tree</field>
+			<field name="model">taller_coches</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="matricula"/>
+					<field name="marca"/>
+					<field name="modelo"/>
+				</tree>     
+			</field>
+    </record>
+	
+    <record id="taller_coches_form" model="ir.ui.view">
+		<field name="name">taller_coches_form</field>
+		<field name="model">taller_coches</field>
+		<field name="arch" type="xml">
+			<form>
+				<group colspan="2" col="2">
+					<field name="matricula"/>
+					<field name="marca"/>
+					<field name="modelo"/>
+					<field name="cliente"/>
+					<field name="reparaciones"/>
+				</group>   
+			</form>     
+		</field>
+    </record>
+    
+    <record id="taller_coches_busqueda" model="ir.ui.view">
+			<field name="name">taller_coches_busqueda</field>
+			<field name="model">taller_coches</field>
+			<field name="arch" type="xml">
+				<search>
+					<field name="matricula" string="Matricula"/>
+				</search>     
+			</field>
+    </record>
+
+    <record id="taller_coches_action_window" model="ir.actions.act_window">
+			<field name="name">Coches</field>
+			<field name="res_model">taller_coches</field>
+			<field name="view_mode">tree,form</field>            
+    </record>
+
+
+		<record id="taller_reparaciones_tree" model="ir.ui.view">
+			<field name="name">taller_reparaciones_tree</field>
+			<field name="model">taller_reparaciones</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="id_rep"/>
+					<field name="tipo"/>
+					<field name="total"/>
+				</tree>     
+			</field>
+    </record>
+	
+    <record id="taller_reparaciones_form" model="ir.ui.view">
+		<field name="name">taller_reparaciones_form</field>
+		<field name="model">taller_reparaciones</field>
+		<field name="arch" type="xml">
+			<form>
+				<group colspan="2" col="2">
+					<field name="id_rep"/>
+					<field name="tipo"/>
+					<field name="costePiezas"/>
+					<field name="manoObra"/>
+					<field name="total"/>
+					<field name="coche"/>
+				</group>   
+			</form>     
+		</field>
+    </record>
+    
+    <record id="taller_reparaciones_busqueda" model="ir.ui.view">
+			<field name="name">taller_reparaciones_busqueda</field>
+			<field name="model">taller_reparaciones</field>
+			<field name="arch" type="xml">
+				<search>
+					<field name="tipo" string="Tipo"/>
+				</search>
+			</field>
+    </record>
+
+    <record id="taller_reparaciones_action_window" model="ir.actions.act_window">
+			<field name="name">Reparaciones</field>
+			<field name="res_model">taller_reparaciones</field>
+			<field name="view_mode">tree,form</field>            
+    </record>
+    
+    <menuitem name="Taller" id="taller_menu"/>
+    <menuitem name="Clientes" id="taller_clientes" parent="taller_menu" action="taller_clientes_action_window"/>
+    <menuitem name="Coches" id="taller_coches" parent="taller_menu" action="taller_coches_action_window"/>
+    <menuitem name="Reparaciones" id="taller_reparaciones" parent="taller_menu" action="taller_reparaciones_action_window"/>
+</odoo>

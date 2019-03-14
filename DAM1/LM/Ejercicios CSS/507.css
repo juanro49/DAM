@@ -1,0 +1,21 @@
+p:first-letter
+{
+	font-family:sans-serif;
+	font-size:60px;
+	font-weight:bold;
+	color:blue;
+	text-transform:uppercase;
+}
+
+.parrafo1
+{
+	font-family:fantasy;
+	color:red;
+	
+}
+
+.parrafo1:first-line
+{
+	text-transform:uppercase;
+	text-decoration:underline;
+}

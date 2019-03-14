@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE jugadoresfutbol [ 
+	<!ELEMENT jugadoresfutbol (jugador*)> 
+	<!ELEMENT jugador EMPTY> 
+	<!ATTLIST jugador nombre CDATA #REQUIRED> 
+	<!ATTLIST jugador codigo CDATA #REQUIRED> 
+]> 
+ 
+<jugadoresfutbol> 
+	<jugador nombre="Alfredo Di Stéfano" codigo="1"/> 
+	<jugador nombre="Edison Arantes do Nascimento, Pelé" codigo="2" /> 
+	<jugador nombre="Diego Armando Maradona" codigo="3" /> 
+	<jugador nombre="Johan Cruyff" codigo="4" /> 
+</jugadoresfutbol>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+     <title>Ejercicio 609</title>
+	 <link rel="stylesheet" type="text/css" href="608.css"/>
+  </head>
+  <body>
+	<form name="formulario" action="http://..." method="get">
+		<h1>FORMULARIO DE CONTACTO</h1>
+		
+		<table>
+			<tr>
+				<th><label for="nombre">Nombre:</label></th>
+				<th><label for="apellidos">Apellidos:</label></th>
+				<th><label for="correo">Correo electrónico:</label></th>
+			</tr>
+			<tr>
+				<td><input id="nombre" type="text" name="nombre"/></td>
+				<td><input id="apellidos" type="text" name="apellidos"/></td>
+				<td><input id="correo" type="text" name="correo" value="@"/></td>
+			</tr>
+		</table>
+		<hr/>
+		<table>
+			<tr>
+				<th><label for="direccion">Dirección:</label></th>
+				<th><label for="poblacion">Población:</label></th>
+				<th><label for="provincia">Provincia:</label></th>
+			</tr>
+			<tr>
+				<td><input id="direccion" type="text" name="dirección"/></td>
+				<td><input id="poblacion" type="text" name="población"/></td>
+				<td><input id="provincia" type="text" name="provincia"/></td>
+			</tr>
+		</table>
+		<hr/>
+		<table>
+			<tr>
+				<th><label for="edad">Edad</label></th>
+				<th colspan="2"><label for="conociste">¿Cómo nos conociste?</label></th>
+			</tr>
+			<tr>
+				<td>
+					<input id="edad" type="radio" name="edad" value="0-20"/>0-20
+					<br/>
+					<input type="radio" name="edad" value="20-40" checked="checked"/>20-40
+					<br/>
+					<input type="radio" name="edad" value="40-60"/>40-60
+					<br/>
+					<input type="radio" name="edad" value="60-100"/>60-100
+				</td>
+				<td colspan="2">
+					<input id="conociste" type="checkbox" name="conociste" value="amigo"/>A través de un amigo
+					<br/>
+					<input type="checkbox" name="conociste" value="buscador"/>A través de un buscador
+					<br/>
+					<input type="checkbox" name="conociste" value="red"/>Navegando por la red
+					<br/>
+					<input type="checkbox" name="conociste" value="Otros"/>Otros
+				</td>
+			</tr>
+		</table>
+		<hr/>
+		<table>
+			<tr>
+				<th><label for="opinion">Opinión sobre nuestra página web</label></th>
+				<th><label for="sugerencias">Tienes alguna sugerencia...</label></th>
+			</tr>
+			<tr>
+				<td>
+					<textarea id="opinion" name="opinión" rows="6" cols="30">Escriba aquí su opinión...</textarea>
+				</td>
+				<td>
+					<textarea id="sugerencias" name="sugerencias" rows="6" cols="30">Escriba aquí sus sugerencias...</textarea>
+				</td>
+			</tr>
+		</table>
+		<hr/>
+		<table>
+			<tr>
+				<th colspan="3"><label for="navegacion">¿Cuánto navegas por internet?</label></th>
+			</tr>
+			<tr>
+				<th colspan="3"><label>(Señala la opción que mas se acerque)</label></th>
+			</tr>
+			<tr>
+				<td>
+					<select size="2">
+						<option id="navegacion" value="2 horas al día">2 horas al día</option>
+						<option id="navegacion" value="4 horas al día">4 horas al día</option>
+						<option id="navegacion" value="6 horas al día">6 horas al día</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<hr/>
+		<table class="botones">
+			<tr>
+				<th class="enviar">
+					<input type="submit" name="Enviar formulario" value="Enviar formulario"/>
+				</th>
+				<th class="borrar">
+					<input type="reset" name="Borrar formulario" value="Borrar formulario"/>
+				</th>
+			</tr>
+		</table>
+    </form>    
+  </body>
+</html>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"?>
+<ciudades>
+  <ciudad>
+    <nombre>Madrid</nombre>
+    <habitantes>3237937</habitantes>
+  </ciudad>
+  <ciudad>
+    <nombre>Málaga</nombre>
+    <habitantes>567433</habitantes>
+  </ciudad>
+  <ciudad>
+    <nombre>Toledo</nombre>
+    <habitantes>84019</habitantes>
+  </ciudad>
+  <ciudad>
+    <nombre>Cáceres</nombre>
+    <habitantes>95698</habitantes>
+  </ciudad>
+  <ciudad>
+    <nombre>Badajoz</nombre>
+    <habitantes>152270</habitantes>
+  </ciudad>
+</ciudades>

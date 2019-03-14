@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cd SYSTEM "305c.dtd">
+<cd>
+    <artista>
+      <nombre>Concha Piquer</nombre>
+      <fechanaci>08/12/1906</fechanaci>
+      <lugarnaci>Valencia</lugarnaci>
+  </artista>
+  <titulocd>Grandes Éxitos</titulocd>
+  <fechacrea>01/01/2014</fechacrea>
+  <genero>Canción Española</genero>
+  <cancion>
+      <titulo>Ojos verdes</titulo>
+      <duracion tiempo="minutos">2.5</duracion>
+  </cancion>
+  <cancion>
+      <titulo>Tatuaje</titulo>
+      <duracion tiempo="minutos">2.9</duracion>
+  </cancion>
+  <cancion>
+      <titulo>Suspiros de España</titulo>
+      <duracion tiempo="minutos">3.2</duracion>
+  </cancion>
+</cd>

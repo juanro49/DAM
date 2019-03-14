@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hoja1.xsl"?>
+<biblioteca>
+<libros>
+<libro>
+  <titulo>La vida está en otra parte</titulo>
+  <autor>Milan Kundera</autor>
+  <fechapublicacion año="1973"/>
+</libro>
+<libro>
+  <titulo>Pantaleón y las visitadoras</titulo>
+  <autor fechanacimiento="28/03/1936">Mario Vargas Llosa</autor>
+  <fechapublicacion año="1973"/>
+</libro>
+<libro>
+  <titulo>Conversación en la catedral</titulo>
+  <autor fechanacimiento="28/03/1936">Mario Vargas Llosa</autor>
+  <fechapublicacion año="1969"/>
+</libro>
+</libros>
+<revistas>
+<revista>
+<titulo>El Mueble</titulo>
+<director fechanacimiento="19/09/1982">Luisa Pérez Palacios</director>
+<fechapublicacion año="2015"/>
+</revista>
+<revista>
+<titulo>Cocina fácil</titulo>
+<director fechanacimiento="21/12/1975">Pedro García Paz</director>
+<fechapublicacion año="2012"/>
+</revista>
+</revistas>
+</biblioteca>

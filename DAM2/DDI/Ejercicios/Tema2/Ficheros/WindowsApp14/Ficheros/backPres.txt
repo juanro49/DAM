@@ -1,0 +1,15 @@
+123#El arte de amar#Erich Fromm#9890#20/01/2019
+123#Moby Dick#Herman Melville#11111#19/01/2019
+44444444c#El proceso#Franz Kafka#66616#24/01/2019
+121212121W#El lobo estepario#Hermann Hesse#78905#24/01/2019
+121212121W#El viejo y el mar#Ernest Hemingway#44144#24/01/2019
+56565656Z#El viejo y el mar#Ernest Hemingway#44144#24/01/2019
+56565656Z#El lobo estepario#Hermann Hesse#78905#24/01/2019
+56565656Z#Lolita#Vladimir Nabokov#66166#24/01/2019
+54545454N#El viejo y el mar#Ernest Hemingway#44144#24/01/2019
+54545454N#El proceso#Franz Kafka#66616#24/01/2019
+11111111z#El viejo y el mar#Ernest Hemingway#44144#24/01/2019
+11111111z#Soy un gato#Natsume Soseki#77777#24/01/2019
+76767676f#El lobo estepario#Hermann Hesse#78905#24/01/2019
+76767676f#El viejo y el mar#Ernest Hemingway#44144#24/01/2019
+76767676f#El proceso#Franz Kafka#66616#24/01/2019

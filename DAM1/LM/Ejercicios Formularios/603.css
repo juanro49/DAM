@@ -1,0 +1,43 @@
+﻿#tabla1
+{
+	border:3px double blue;
+	background-color:#78bef4;
+	margin:auto;
+	width:70%;
+}
+
+#tabla1 caption
+{
+	font-weight:bold;
+
+}
+
+#tabla1 td
+{
+	border:1px solid blue;
+	background-color:#78bef4;
+	padding:10px;
+}
+
+#tabla1 th
+{
+	border:1px solid blue;
+	background-color:#78bef4;
+
+}
+
+#tabla2
+{
+	border:1px solid red;
+	background-color:#df7fac;
+	margin:auto;
+	width:40%;
+}
+
+#tabla2 td
+{
+	border:1px solid red;
+	background-color:#df7fac ;
+	padding:10px;
+	text-align:center;
+}

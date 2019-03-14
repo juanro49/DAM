@@ -1,0 +1,14 @@
+<!ELEMENT persona (nombre, nacimiento*, dirección, sexo*,nombre, nacimiento*, dirección+, sexo*)>
+  <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre dni ID #REQUIRED>
+  <!ELEMENT nacimiento (día,mes,año)>
+    <!ELEMENT día (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+  <!ELEMENT dirección (calle, población, provincia)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT población (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+  <!ELEMENT sexo (varón | hembra)>
+    <!ELEMENT varón EMPTY>
+    <!ELEMENT hembra EMPTY>

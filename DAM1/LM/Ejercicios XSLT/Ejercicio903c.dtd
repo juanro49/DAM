@@ -1,0 +1,5 @@
+<!ELEMENT ciudades (ciudad+)> 
+<!ELEMENT ciudad (pais,museo)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT museo (#PCDATA)>
+	 <!ATTLIST ciudad nombre NMTOKEN #REQUIRED>

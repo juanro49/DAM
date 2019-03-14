@@ -1,0 +1,80 @@
+﻿form
+{
+	margin:50px;
+	padding-bottom:50px;
+}
+
+h1
+{
+	font-size:20px;
+}
+
+div
+{
+	border:3px solid blue;
+	background-color:#cdeaf4;
+	width:70%;
+	padding:10px;
+}
+
+table
+{
+	border:3px solid blue;
+	background-color:#cdeaf4;
+	width:70%;
+	padding:10px;
+}
+
+.registro
+{
+	background-color:#e59866;
+}
+
+.registro legend
+{
+	text-decoration:underline;
+	color:brown;
+	font-weight:bold;
+}
+
+.identificacion
+{
+	background-color:#f7bfde;
+	color:#ba0067;
+}
+
+.identificacion legend
+{
+	color:#ba0067;
+}
+
+.datos
+{
+	background-color:#abebc6;
+	color:green;
+}
+
+.datos legend
+{
+	color:green;
+}
+
+.otros
+{
+	background-color:#6de769;
+}
+
+.otros legend
+{
+	color:#46c20a;
+}
+
+.confirmar
+{
+	background-color:#bb8fce;
+}
+
+.confirmar legend
+{
+	color:#a700c2;
+}

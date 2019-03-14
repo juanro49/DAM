@@ -1,0 +1,14 @@
+table
+{
+	background-color:cyan;
+	border:5px double red;
+	padding:5px;
+}
+td
+{
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+	border:3px solid black;
+}

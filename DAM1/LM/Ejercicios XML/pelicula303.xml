@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE pelicula [ 
+	<!ELEMENT pelicula EMPTY> 
+	<!ATTLIST pelicula titulo CDATA #IMPLIED> 
+]> 
+ 
+<pelicula titulo="La diligencia" />

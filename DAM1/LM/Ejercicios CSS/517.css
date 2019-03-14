@@ -1,0 +1,13 @@
+div
+{
+	background-color:yellow;
+	border:3px dashed green;
+	width:200px;
+	margin:10px;
+	padding:10px;
+}
+
+ul
+{
+	list-style-image:url(mivineta.gif);
+}

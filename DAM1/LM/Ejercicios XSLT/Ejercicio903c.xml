@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+      <!DOCTYPE ciudades SYSTEM "Ejercicio903c.dtd">
+    
+<ciudades>
+
+<ciudad nombre="Madrid"><pais>España</pais><museo>Museo del Prado</museo></ciudad>
+
+<ciudad nombre="Londres"><pais>Reino Unido</pais><museo>British Museum</museo></ciudad>
+
+<ciudad nombre="Londres"><pais>Reino Unido</pais><museo>National Gallery</museo></ciudad>
+
+</ciudades>

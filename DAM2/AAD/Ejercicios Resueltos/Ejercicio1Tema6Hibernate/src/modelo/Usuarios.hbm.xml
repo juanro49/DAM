@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 08-feb-2019 17:31:55 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="modelo.Usuarios" table="usuarios" catalog="dam_pruebas">
+        <id name="usuario" type="string">
+            <column name="USUARIO" length="30" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="NOMBRE" length="30" />
+        </property>
+        <property name="apellidos" type="string">
+            <column name="APELLIDOS" length="120" />
+        </property>
+        <property name="calle" type="string">
+            <column name="CALLE" length="100" />
+        </property>
+        <property name="numero" type="java.lang.Integer">
+            <column name="NUMERO" />
+        </property>
+        <property name="cp" type="string">
+            <column name="CP" length="5" />
+        </property>
+        <property name="telefono" type="string">
+            <column name="TELEFONO" length="9" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" length="256" />
+        </property>
+        <property name="provincia" type="string">
+            <column name="PROVINCIA" length="120" />
+        </property>
+        <property name="clave" type="string">
+            <column name="CLAVE" length="30" />
+        </property>
+        <set name="noticiases" table="noticias" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="USUARIO" length="30" />
+            </key>
+            <one-to-many class="modelo.Noticias" />
+        </set>
+    </class>
+</hibernate-mapping>

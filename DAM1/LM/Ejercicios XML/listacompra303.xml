@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE listacompra [ 
+	<!ELEMENT listacompra (item*)> 
+	<!ELEMENT item EMPTY> 
+	<!ATTLIST item nombre CDATA #REQUIRED> 
+	<!ATTLIST item cantidad CDATA #REQUIRED> 
+]> 
+ 
+<listacompra> 
+	<item nombre="leche" cantidad="12 litros" ></item> 
+	<item nombre="pan" cantidad="3 barras de cuarto" /> 
+</listacompra>

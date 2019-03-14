@@ -1,0 +1,7 @@
+<!ELEMENT biblioteca (libro+)>
+  <!ELEMENT libro (titulo,autor,fechapublicacion)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+    <!ATTLIST autor fechanacimiento CDATA #IMPLIED>
+  <!ELEMENT fechapublicacion EMPTY>
+    <!ATTLIST fechapublicacion año NMTOKEN #REQUIRED>

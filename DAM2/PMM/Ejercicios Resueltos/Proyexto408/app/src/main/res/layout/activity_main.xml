@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="2"
+    android:background="#d2846c"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.juan11791.proyexto408.MainActivity">
+
+
+    <TextView
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Seleccione ciudad y foto"
+        android:id="@+id/tv1"
+        android:layout_marginTop="90dp"
+        android:layout_rowSpan="2"
+        android:layout_row="3"
+        android:layout_column="1" />
+
+    <RadioGroup>
+        <RadioButton
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Zaragoza"
+            android:id="@+id/rbZaragoza"
+            android:layout_marginTop="80dp"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <RadioButton
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Ávila"
+            android:id="@+id/rbAvila"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <RadioButton
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Cáceres"
+            android:id="@+id/rbCaceres"
+            android:layout_row="4"
+            android:layout_column="0" />
+
+        <RadioButton
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Córdoba"
+            android:id="@+id/rbCordoba"
+            android:layout_row="5"
+            android:layout_column="0" />
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="120dp"
+        android:id="@+id/ivCaceres"
+        android:src="@drawable/caceres"
+        android:onClick="caceres"
+        android:padding="10dp"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="120dp"
+        android:id="@+id/ivCordoba"
+        android:src="@drawable/cordoba"
+        android:onClick="cordoba"
+        android:padding="10dp"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="120dp"
+        android:id="@+id/ivAvila"
+        android:src="@drawable/avila"
+        android:onClick="avila"
+        android:padding="10dp"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="120dp"
+        android:id="@+id/ivZaragoza"
+        android:src="@drawable/zaragoza"
+        android:onClick="zaragoza"
+        android:padding="10dp"
+        android:layout_row="1"
+        android:layout_column="1" />
+</GridLayout>
