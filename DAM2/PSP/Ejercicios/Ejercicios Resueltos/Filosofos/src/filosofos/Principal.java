@@ -8,14 +8,15 @@ public class Principal
 	 public static void main(String[] args)
 	 {
 		 //número de filósofos sentados a la mesa redonda. Cada filósofo (o cada
-		 //palillo) se identifica por un índice del 0 al 4
-		 int filosofos = 5;
+		 //palillo) se identifica por un índice del 0 al 5
+	 		//Modifico para que seal 6 filósofos, no cinco
+		 int filosofos = 6;
 		 
 		 //matriz de 5 filas y 2 columnas. Cada fila representa un filósofo y guarda
 		 //el número de los palillos que necesita el filósofo de esa fila para comer:
 		 // el filósofo de índice 0 necesita los palillos de índices 0 y 4,
 		 // el de índice 1 los de índices 1 y 0, etc...
-		 int[][] palillosFilosofo = {{0, 4}, {1, 0}, {2, 1}, {3, 2}, {4, 3}};
+		 int[][] palillosFilosofo = {{0, 4}, {1, 0}, {2, 1}, {3, 2}, {4, 3},{5, 4}};
 		 
 		 //vector de semáforos (uno para cada palillo)
 		 Semaphore[] semaforoPalillo = new Semaphore[filosofos];
