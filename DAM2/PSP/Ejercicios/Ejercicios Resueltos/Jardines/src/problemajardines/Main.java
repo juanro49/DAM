@@ -20,7 +20,8 @@ public class Main
             (new EntraJardin("Entra" + i, jardin)).start();
         }//entrada de 10 hilos al jardín
         
-        for (int i = 1; i <= 15; i++)
+//        for (int i = 1; i <= 15; i++)
+	for (int i = 1; i<= 20;i++)
         {
             (new SaleJardin("Sale" + i, jardin)).start();
         }//salida de 15 hilos al jardín
