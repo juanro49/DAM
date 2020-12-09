@@ -19,3 +19,4 @@ Sergio#sanchez#121212121W#24#estudiante
 Alberto#sanchez#43434334V#75#jubilado
 Alberto#sierra#54545454N#34#ingeniero
 Pedro#Jimenez#98989898l#34#analista
+Anton#Lorenzo#567453456#43#carpintero
